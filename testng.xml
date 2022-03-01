@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="webbuild53_CNORegression">
+<!-- <listeners>
+<listener class-name="com.amzur.edo.CustomListener" />
+
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<listener
+class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners> -->
+  <test thread-count="04" name="rolemodule ">
+    <classes>
+      
+      <class name="cnodashboard_testmethods.Orgnizationtab"/>
+      <class name="cnodashboard_testmethods.Cnouserstab"/>
+      
+<!-- <class name ="evoke_web.Login"/>
+      <class name ="evoke_web.privilegesTab"/> -->      </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
